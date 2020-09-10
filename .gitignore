@@ -3,4 +3,5 @@ __pycache__/
 .ipynb_checkpoints/
 kasiskiutils.pyc
 kasiski.ipynb
-data/
+cache.txt
+Problem1.ipynb
