@@ -14,6 +14,14 @@ def get_bigrams():
 def get_trigrams():
     return [i+j+k for i in string.ascii_lowercase for j in string.ascii_lowercase for k in string.ascii_lowercase]
 
+# Generate fourgrams
+def get_fourgrams():
+    return [i+j+k+p for i in string.ascii_lowercase for j in string.ascii_lowercase for k in string.ascii_lowercase for p in string.ascii_lowercase]
+
+# Generate fivegrams
+def get_fivegrams():
+    return [i+j+k+p+q for i in string.ascii_lowercase for j in string.ascii_lowercase for k in string.ascii_lowercase for p in string.ascii_lowercase for q in string.ascii_lowercase]
+
 # Get letter frequence 
 def get_letter_freq(text):
     
